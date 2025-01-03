@@ -1,0 +1,22 @@
+La idea de las cartas originales es hacer cartas que se puedan tomar en cualquier momento en una baraja aparte.
+Esta baraja sera la baraja especial y esta contendra cartas con un efecto bueno y efecto malo que se podra jugar en cualquier momento. Ademas, estas cartas
+no seran un requerimiento para que el jugador pueda ganar la partida o gritar UNO, el jugador podra ganar la partida si y solo si se deshace de todas las
+cartas estandar del juego y solo si la ultima carta que juega no es un carta especial de la baraja estandar, solo puede ser un numero comun si efectos especiales
+no un comodin, un +2, +4, pierde turno, etc.
+Las cartas de la baraja especial tienen un efecto positivo y uno negativo para equilibrar el juego y hacer que este sea mas divertido y difrerente.
+Las cartas especiales pueden ser arrastradas en cualquier momento, y aunque estas no podran ser jugadas en el mismo turno que son arrastradas despues de este se 
+podran jugar en cualquier momento pero solo una por turno.
+Solo se puede arratrar una carta especial cada 2 turnos, esto se puede hacer sin afectar el turno del jugador, osea  que este podra jugar sus cartas sin problema.
+Las cartas especiales se van a una baraja de descarte especial para ellas.
+-Una carta que al ser lanzada la victima arrastre 2 cartas y el victimario arrastre 3. Si la victima tenia solo 1 carta estandar en su poder entonces el victimario podra elegir 
+entre: Arrastrar solo 2 cartas o que tome 3 pero todos los demas arratran 1.
+-Una carta tiene el efecto de ver la baraja de un jugador de su eleccion y cambiar una carta de su baraja por la del rival, mas sin embargo este tambien esta obligado a dejar que 
+el rival tome la carta que desee que la baraja del rival.
+-Carta con multiples efectos, algunos buenos y otros malos, este se decide pagando un precio o con una tirada de dados.
+-Una carta que al ser jugada alguien podra descartar una carta cualquiera, el jugador es aleatorio.
+-Cartas de efectos negativos que se activan al ser sacadas al campo. Por ejemplo: Toma 4.
+-Mirar las primeras 3 cartas del mazo normal.
+-Tomar la ultima carta jugada de la baraja de descarte.
+
+Si se agarran mas de 25 (revisar si este numero es adecuado) cartas por el medio que sea el jugador automaticamente perdera la partida.
+

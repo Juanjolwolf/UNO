@@ -1,0 +1,1 @@
+Hacer la creacion de las cartas y la baraja, para luego que se mezcle. Estandar

@@ -1,0 +1,35 @@
+La baraja puede estara compuesta de un numero finito de cartas dispuestas de un modo aleatorio, esta baraja y las manos pueden estar dispuestas de las siguientes formas:
+-Lista ligada 
+-Arreglo
+Sea lo que yo utilice lo que importa es que debere hacer uso de pilas y colas
+
+Las manos en teoria no deberian tener un limite de cartas, por los que una lista ligada para la mano no esta fuera de discusion
+
+Como logro que las cartas tengan efectos?
+
+
+76 Cartas de numero en total(19 de cada color):
+4 Cartas 0:
+-1 azul
+-1 verde
+-1 amarilla 
+-1 roja
+8 Cartas 1-9(De las cartas de la 1 a la 9 se repite este patron. 72 en total):
+-2 azules
+-2 verdes
+-2 amarillas
+-2 rojas
+
+32 Cartas especiales (8 comodines y 6 de cada color):
+4 Cartas de comodin
+4 Cartas de +4
+8 Cartas de +2 (2 de cada color)
+8 Cartas de reversa (2 de cada color)
+8 Cartas de pierde turno (2 de cada color)
+
+La baraja estandar contiene 108 cartas en total
+
+Las barajas estan echas de un vector
+
+La barajas personalizadas son un vector con un numero limitado de cartas y simplemente se decide cuantas cartas de cada cual deben ir en especiales
+Ejemplo: un vector estandar de 108 cartas puede tener las cartas especiales que quiera, pero al final la sumade todas sus cartas DEBE dar 108.
