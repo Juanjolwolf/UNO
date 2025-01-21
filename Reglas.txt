@@ -1,3 +1,4 @@
+Byte: enteros de entre 0 a 255
 Opcion para varios modos:
 1: Cuando un jugador se ve obligado a arrastrar una carta por no poseerla debe seguir tomando del mazo hasta que de este se presente una carta que si pueda jugar.
 2: Tambien se puede hacer que se arrastre una y si no es esa se pierde turno.

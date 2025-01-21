@@ -1,0 +1,45 @@
+0 1 2 3 4 5 6 7 8 9 1  2  3  4  5  6  7  8  9  1  2  3  4  5  6  7  8  9
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27
+
+Cada que vuelve a aparecer un numero se aumenta en 9 la ubicacion
+Se empieza con la instancia 1
+
+U>0 y U<10
+Numero=Ubicacion-0 || Numero=Ubicacion-(9*0)
+
+U>9 y U<19
+Numero=Ubicacion-9 || Numero=Ubicacion-(9*1)
+
+U>18 y U<28
+Numero=Ubicacion-18 || Numero=Ubicacion-(9*2)
+
+Numero=1-(9*((1U-1)/9))
+Numero=1-(9*(0/9))
+Numero=1-(9*0)
+Numero=1-0
+Numero=1
+
+Numero=2-(9*((2U-1)/9))
+Numero=2-(9*(1/9))
+Numero=2-1
+Numero=1
+
+Numero=3-(9*((3U-1)/9))
+Numero=3-(9*(2/9))
+Numero=3-2
+Numero=1
+
+Numero=10-(9*((10U-1)/9))
+Numero=10-(9*(9/9))
+Numero=10-(9*1)
+Numero=10-9
+Numero=1
+
+
+
+
+0 1 1 2 2 3 3 4 4 5 5  6  6  7  7  8  8  9  9  
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+
+0 1 1 1 2 2 2 3 3 3 4  4  4  5  5  5  6  6  6  7  7  7  8  8  8  9  9  9
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27

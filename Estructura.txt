@@ -11,7 +11,7 @@ Como logro que las cartas tengan efectos?
 76 Cartas de numero en total(19 de cada color):
 4 Cartas 0:
 -1 azul
--1 verde
+-1 verde    
 -1 amarilla 
 -1 roja
 8 Cartas 1-9(De las cartas de la 1 a la 9 se repite este patron. 72 en total):
@@ -33,3 +33,32 @@ Las barajas estan echas de un vector
 
 La barajas personalizadas son un vector con un numero limitado de cartas y simplemente se decide cuantas cartas de cada cual deben ir en especiales
 Ejemplo: un vector estandar de 108 cartas puede tener las cartas especiales que quiera, pero al final la sumade todas sus cartas DEBE dar 108.
+
+Posibles colores:
+-Azul
+-Amarillo
+-Verde
+-Rojo
+-Negro
+Posibles numeros:
+0-9
+10(Para las cartas especiales)
+Posibles efectos:
+-2 (+2)
+-4 (+4)
+-P (Pierde turno)
+-R (Reverso)
+-C (Comodin)
+-N (Ninguno)
+
+Carta de numero:
+Numero: 0-9
+Color: Azul, Amarillo, Verde, Rojo
+Especial: false
+Efecto: N
+
+Carta especial: 
+Numero: 10
+Color: Azul, Amarillo, Verde, Rojo, Negro
+Especial: true
+Efecto: 2, 4, P, R ,C 

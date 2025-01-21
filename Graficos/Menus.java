@@ -1,11 +1,12 @@
 package Graficos;
-import Funcional.Preparar_juego;
+import Funcional.*;
 import java.util.Scanner;
 
 public class Menus
 {
     public void menu_inicial()
     {
+        
         String r="";
         Scanner s= new Scanner(System.in);
         System.out.println
@@ -14,10 +15,11 @@ public class Menus
         +"|0| Salir"+'\n');
         System.out.print("Respuesta: ");
         r= s.nextLine();
+        Preparar_juego b = new Preparar_juego();
         switch(r)
         {
             case "1":
-            //Mandar a el inicio de juego
+            b.Preparacion_estandar();
             break;
             case "0":
             System.exit(0);

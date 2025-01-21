@@ -17,9 +17,10 @@ Posibles numeros:
 Posibles efectos:
 -2 (+2)
 -4 (+4)
--S (Pierde turno)
+-P (Pierde turno)
 -R (Reverso)
 -C (Comodin)
+-N (Ninguno)
 
 */
 public class Carta_estandar
@@ -29,7 +30,9 @@ public class Carta_estandar
     private boolean especial;
     private char efecto;
 
-    Carta_estandar(String c, byte n, boolean es, char ef)
+    //El constructor debe ser publico para que se pueda utilizar desde otros paquetes, de otro modo saldra 'error constructor no visible'
+    //Para que sea tomado como un constrcutor, el metodo debe tener el mismo nombre que el objeto Y no debe tener ninguna expresion para devolver nada, ni siquiera void
+    public Carta_estandar(String c, byte n, boolean es, char ef)
     {
         this.color= c;
         this.numero= n;
@@ -43,7 +46,7 @@ public class Carta_estandar
     }
     public String get_color()
     {
-        return color;
+        return this.color;
     }
 
     public void set_numero(byte nu)
@@ -52,7 +55,7 @@ public class Carta_estandar
     }
     public byte get_numero()
     {
-        return numero;
+        return this.numero;
     }
 
     public void set_especial(boolean esp)
@@ -61,7 +64,7 @@ public class Carta_estandar
     }
     public boolean get_especial()
     {
-        return especial;
+        return this.especial;
     }
 
     public void set_efecto(char efe)
@@ -70,6 +73,20 @@ public class Carta_estandar
     }
     public char get_efecto()
     {
-        return efecto;
+        return this.efecto;
+    }
+
+    public void set_estado(String o, byte l, boolean k, char v)
+    {
+        this.color= o;
+        this.numero= l;
+        this.especial= k;
+        this.efecto= v;
+    }
+    public String get_estado()
+    {
+        String Estado;
+        Estado= "Color: "+get_color()+", Efecto: "+get_efecto()+", Numero: "+get_numero()+", Especial: "+get_especial();
+        return Estado;
     }
 }
