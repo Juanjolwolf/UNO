@@ -212,7 +212,7 @@ public class Baraja
         "Pierde turno azul: "+cartas[40]+"      "+"Pierde turno amarillo: "+cartas[41]+"      "+"Pierde turno verde: "+cartas[42]+"      "+"Pierde turno rojo: "+cartas[43]+"      "+'\n'+
         "Revolver azul: "+cartas[44]+"      "+"Revolver amarillo: "+cartas[45]+"      "+"Revolver verde: "+cartas[46]+"      "+"Revolver rojo: "+cartas[47]+"      "+'\n'+
         "+2 azul: "+cartas[48]+"      "+"+2 amarillo: "+cartas[49]+"      "+"+2 verde: "+cartas[50]+"      "+"+2 rojo: "+cartas[51]+"      "+'\n'+'\n'+
-        "Comodin: "+cartas[52]+"      "+"+4 azul: "+cartas[53];
+        "Comodin: "+cartas[52]+"      "+"+4: "+cartas[53];
         return contenido;
     }
 
